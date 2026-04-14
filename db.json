@@ -1,0 +1,284 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Amit Sharma",
+      "email": "amit@gmail.com",
+      "phone": "9876543210",
+      "gender": "Male",
+      "dob": "1990-04-23",
+      "doj": "2023-05-05",
+      "branch": "Kolkata",
+      "address": {
+        "city": "Kolkata",
+        "state": "WB",
+        "pincode": "700001"
+      },
+      "salary": {
+        "annualCtc": 600000,
+        "basic": 30000,
+        "bonus": 5000
+      },
+      "bank": {
+        "accountNumber": "1234567890",
+        "ifsc": "SBIN0001234",
+        "bankName": "State Bank of India"
+      },
+      "qualification": [
+        { "degree": "B.Tech", "year": 2020 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Priya Das",
+      "email": "priya@gmail.com",
+      "phone": "9123456780",
+      "gender": "Female",
+      "dob": "1992-08-15",
+      "doj": "2022-03-10",
+      "branch": "Howrah",
+      "address": {
+        "city": "Howrah",
+        "state": "WB",
+        "pincode": "711101"
+      },
+      "salary": {
+        "annualCtc": 550000,
+        "basic": 28000,
+        "bonus": 4000
+      },
+      "bank": {
+        "accountNumber": "2234567890",
+        "ifsc": "HDFC0005678",
+        "bankName": "HDFC Bank"
+      },
+      "qualification": [
+        { "degree": "B.Sc", "year": 2019 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rahul Sen",
+      "email": "rahul@gmail.com",
+      "phone": "9001234567",
+      "gender": "Male",
+      "dob": "1989-12-05",
+      "doj": "2021-07-01",
+      "branch": "Durgapur",
+      "address": {
+        "city": "Durgapur",
+        "state": "WB",
+        "pincode": "713201"
+      },
+      "salary": {
+        "annualCtc": 700000,
+        "basic": 35000,
+        "bonus": 6000
+      },
+      "bank": {
+        "accountNumber": "3234567890",
+        "ifsc": "ICIC0001111",
+        "bankName": "ICICI Bank"
+      },
+      "qualification": [
+        { "degree": "MCA", "year": 2021 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sneha Roy",
+      "email": "sneha@gmail.com",
+      "phone": "9012345678",
+      "gender": "Female",
+      "dob": "1993-06-18",
+      "doj": "2020-11-20",
+      "branch": "Siliguri",
+      "address": {
+        "city": "Siliguri",
+        "state": "WB",
+        "pincode": "734001"
+      },
+      "salary": {
+        "annualCtc": 620000,
+        "basic": 32000,
+        "bonus": 4500
+      },
+      "bank": {
+        "accountNumber": "4234567890",
+        "ifsc": "AXIS0002222",
+        "bankName": "Axis Bank"
+      },
+      "qualification": [
+        { "degree": "MBA", "year": 2020 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Arjun Ghosh",
+      "email": "arjun@gmail.com",
+      "phone": "9988776655",
+      "gender": "Male",
+      "dob": "1991-02-10",
+      "doj": "2019-09-15",
+      "branch": "Kalyani",
+      "address": {
+        "city": "Kalyani",
+        "state": "WB",
+        "pincode": "741235"
+      },
+      "salary": {
+        "annualCtc": 500000,
+        "basic": 27000,
+        "bonus": 3000
+      },
+      "bank": {
+        "accountNumber": "5234567890",
+        "ifsc": "PNB0003333",
+        "bankName": "Punjab National Bank"
+      },
+      "qualification": [
+        { "degree": "B.Com", "year": 2018 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Neha Gupta",
+      "email": "neha@gmail.com",
+      "phone": "8877665544",
+      "gender": "Female",
+      "dob": "1988-11-25",
+      "doj": "2018-04-12",
+      "branch": "Delhi",
+      "address": {
+        "city": "Delhi",
+        "state": "DL",
+        "pincode": "110001"
+      },
+      "salary": {
+        "annualCtc": 900000,
+        "basic": 40000,
+        "bonus": 8000
+      },
+      "bank": {
+        "accountNumber": "6234567890",
+        "ifsc": "SBIN0004444",
+        "bankName": "State Bank of India"
+      },
+      "qualification": [
+        { "degree": "BBA", "year": 2017 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Vikram Singh",
+      "email": "vikram@gmail.com",
+      "phone": "7766554433",
+      "gender": "Male",
+      "dob": "1987-03-30",
+      "doj": "2017-01-05",
+      "branch": "Mumbai",
+      "address": {
+        "city": "Mumbai",
+        "state": "MH",
+        "pincode": "400001"
+      },
+      "salary": {
+        "annualCtc": 950000,
+        "basic": 45000,
+        "bonus": 9000
+      },
+      "bank": {
+        "accountNumber": "7234567890",
+        "ifsc": "HDFC0005555",
+        "bankName": "HDFC Bank"
+      },
+      "qualification": [
+        { "degree": "B.Tech", "year": 2016 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ananya Paul",
+      "email": "ananya@gmail.com",
+      "phone": "6655443322",
+      "gender": "Female",
+      "dob": "1995-09-12",
+      "doj": "2023-01-10",
+      "branch": "Kolkata",
+      "address": {
+        "city": "Kolkata",
+        "state": "WB",
+        "pincode": "700091"
+      },
+      "salary": {
+        "annualCtc": 580000,
+        "basic": 31000,
+        "bonus": 5000
+      },
+      "bank": {
+        "accountNumber": "8234567890",
+        "ifsc": "ICIC0006666",
+        "bankName": "ICICI Bank"
+      },
+      "qualification": [
+        { "degree": "M.Sc", "year": 2022 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Rohit Jain",
+      "email": "rohit@gmail.com",
+      "phone": "5544332211",
+      "gender": "Male",
+      "dob": "1986-07-21",
+      "doj": "2016-06-18",
+      "branch": "Jaipur",
+      "address": {
+        "city": "Jaipur",
+        "state": "RJ",
+        "pincode": "302001"
+      },
+      "salary": {
+        "annualCtc": 800000,
+        "basic": 36000,
+        "bonus": 7000
+      },
+      "bank": {
+        "accountNumber": "9234567890",
+        "ifsc": "AXIS0007777",
+        "bankName": "Axis Bank"
+      },
+      "qualification": [
+        { "degree": "CA", "year": 2015 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pooja Mehta",
+      "email": "pooja@gmail.com",
+      "phone": "4433221100",
+      "gender": "Female",
+      "dob": "1994-05-14",
+      "doj": "2021-02-25",
+      "branch": "Pune",
+      "address": {
+        "city": "Pune",
+        "state": "MH",
+        "pincode": "411001"
+      },
+      "salary": {
+        "annualCtc": 750000,
+        "basic": 38000,
+        "bonus": 7500
+      },
+      "bank": {
+        "accountNumber": "1034567890",
+        "ifsc": "PNB0008888",
+        "bankName": "Punjab National Bank"
+      },
+      "qualification": [
+        { "degree": "MBA", "year": 2019 }
+      ]
+    }
+  ]
+}
