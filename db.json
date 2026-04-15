@@ -25,7 +25,8 @@
         "bankName": "State Bank of India"
       },
       "qualification": [
-        { "degree": "B.Tech", "year": 2020 }
+        { "degree": "B.Tech", 
+        "year": 2020 }
       ]
     },
     {

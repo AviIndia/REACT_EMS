@@ -12,14 +12,16 @@ import Notfound from './pages/Notfound'
 import Authlayout from './Layouts/Authlayout'
 import Login from './pages/Login'
 import Salary from './pages/Salary'
+import EmployeeProvider from "./context/EmployeeProvider";
 
 function App() {
   return (
+     <EmployeeProvider>
     <BrowserRouter>
       <Routes>
 
          <Route path="/" element={<Authlayout/>}>
-            <Route path="/login" element={<Login/>} />
+            <Route path="/" element={<Login/>} />
         </Route>
         {/* -------- layout Router-------- */}
         <Route path="/" element={<MainLayout />}>
@@ -36,6 +38,7 @@ function App() {
         <Route path="*" element={<Notfound />}></Route>
       </Routes>
     </BrowserRouter>
+    </EmployeeProvider>
   )
 }
 
