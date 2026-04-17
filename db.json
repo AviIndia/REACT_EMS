@@ -25,8 +25,10 @@
         "bankName": "State Bank of India"
       },
       "qualification": [
-        { "degree": "B.Tech", 
-        "year": 2020 }
+        {
+          "degree": "B.Tech",
+          "year": 2020
+        }
       ]
     },
     {
@@ -54,7 +56,10 @@
         "bankName": "HDFC Bank"
       },
       "qualification": [
-        { "degree": "B.Sc", "year": 2019 }
+        {
+          "degree": "B.Sc",
+          "year": 2019
+        }
       ]
     },
     {
@@ -82,7 +87,10 @@
         "bankName": "ICICI Bank"
       },
       "qualification": [
-        { "degree": "MCA", "year": 2021 }
+        {
+          "degree": "MCA",
+          "year": 2021
+        }
       ]
     },
     {
@@ -110,7 +118,10 @@
         "bankName": "Axis Bank"
       },
       "qualification": [
-        { "degree": "MBA", "year": 2020 }
+        {
+          "degree": "MBA",
+          "year": 2020
+        }
       ]
     },
     {
@@ -138,7 +149,10 @@
         "bankName": "Punjab National Bank"
       },
       "qualification": [
-        { "degree": "B.Com", "year": 2018 }
+        {
+          "degree": "B.Com",
+          "year": 2018
+        }
       ]
     },
     {
@@ -166,7 +180,10 @@
         "bankName": "State Bank of India"
       },
       "qualification": [
-        { "degree": "BBA", "year": 2017 }
+        {
+          "degree": "BBA",
+          "year": 2017
+        }
       ]
     },
     {
@@ -194,7 +211,10 @@
         "bankName": "HDFC Bank"
       },
       "qualification": [
-        { "degree": "B.Tech", "year": 2016 }
+        {
+          "degree": "B.Tech",
+          "year": 2016
+        }
       ]
     },
     {
@@ -222,7 +242,10 @@
         "bankName": "ICICI Bank"
       },
       "qualification": [
-        { "degree": "M.Sc", "year": 2022 }
+        {
+          "degree": "M.Sc",
+          "year": 2022
+        }
       ]
     },
     {
@@ -250,7 +273,10 @@
         "bankName": "Axis Bank"
       },
       "qualification": [
-        { "degree": "CA", "year": 2015 }
+        {
+          "degree": "CA",
+          "year": 2015
+        }
       ]
     },
     {
@@ -278,8 +304,491 @@
         "bankName": "Punjab National Bank"
       },
       "qualification": [
-        { "degree": "MBA", "year": 2019 }
+        {
+          "degree": "MBA",
+          "year": 2019
+        }
       ]
+    }
+  ],
+  "employee_master": [
+    {
+      "id": 1,
+      "emp_id": "EMP001",
+      "emp_name": "Amit Sharma",
+      "email": "amit.sharma@gmail.com",
+      "password": "pass123",
+      "phone": "9876543210",
+      "gen": "Male",
+      "dob": "1990-04-23",
+      "doj": "2023-05-05",
+      "branch": "Kolkata",
+      "blood_group": "B+",
+      "marital_status": "Married",
+      "active": true
+    },
+    {
+      "id": 2,
+      "emp_id": "EMP002",
+      "emp_name": "Priya Sen",
+      "email": "priya.sen@gmail.com",
+      "password": "pass123",
+      "phone": "9123456780",
+      "gen": "Female",
+      "dob": "1995-08-12",
+      "doj": "2022-06-10",
+      "branch": "Delhi",
+      "blood_group": "A+",
+      "marital_status": "Single",
+      "active": true
+    },
+    {
+      "id": 3,
+      "emp_id": "EMP003",
+      "emp_name": "Rahul Das",
+      "email": "rahul.das@gmail.com",
+      "password": "pass123",
+      "phone": "9012345678",
+      "gen": "Male",
+      "dob": "1988-02-18",
+      "doj": "2021-03-15",
+      "branch": "Mumbai",
+      "blood_group": "O+",
+      "marital_status": "Married",
+      "active": true
+    },
+    {
+      "id": 4,
+      "emp_id": "EMP004",
+      "emp_name": "Sneha Paul",
+      "email": "sneha.paul@gmail.com",
+      "password": "pass123",
+      "phone": "9988776655",
+      "gen": "Female",
+      "dob": "1992-11-05",
+      "doj": "2020-07-20",
+      "branch": "Chennai",
+      "blood_group": "AB+",
+      "marital_status": "Single",
+      "active": true
+    },
+    {
+      "id": 5,
+      "emp_id": "EMP005",
+      "emp_name": "Vikas Yadav",
+      "email": "vikas.yadav@gmail.com",
+      "password": "pass123",
+      "phone": "9090909090",
+      "gen": "Male",
+      "dob": "1987-09-30",
+      "doj": "2019-01-01",
+      "branch": "Bangalore",
+      "blood_group": "B-",
+      "marital_status": "Married",
+      "active": true
+    },
+    {
+      "id": 6,
+      "emp_id": "EMP006",
+      "emp_name": "Neha kapoor",
+      "email": "neha.kapoor@gmail.com",
+      "password": "pass123",
+      "phone": "9871234567",
+      "gen": "Female",
+      "dob": "1996-03-14",
+      "doj": "2023-02-11",
+      "branch": "Hyderabad",
+      "blood_group": "A-",
+      "marital_status": "Single",
+      "active": true
+    },
+    {
+      "id": 7,
+      "emp_id": "EMP007",
+      "emp_name": "Arjun Sing",
+      "email": "arjun.singh@gmail.com",
+      "password": "pass123",
+      "phone": "8899776655",
+      "gen": "Male",
+      "dob": "1991-06-25",
+      "doj": "2022-08-01",
+      "branch": "Pune",
+      "blood_group": "O-",
+      "marital_status": "Married",
+      "active": true
+    },
+    {
+      "id": 8,
+      "emp_id": "EMP008",
+      "emp_name": "Pooja Verma",
+      "email": "pooja.verma@gmail.com",
+      "password": "pass123",
+      "phone": "9988123456",
+      "gen": "Female",
+      "dob": "1994-12-19",
+      "doj": "2021-10-10",
+      "branch": "Jaipur",
+      "blood_group": "B+",
+      "marital_status": "Single",
+      "active": true
+    },
+    {
+      "id": 9,
+      "emp_id": "EMP009",
+      "emp_name": "Sourav Roy",
+      "email": "sourav.roy@gmail.com",
+      "password": "pass123",
+      "phone": "9876540000",
+      "gen": "Male",
+      "dob": "1989-05-17",
+      "doj": "2020-04-18",
+      "branch": "Kolkata",
+      "blood_group": "A+",
+      "marital_status": "Married",
+      "active": true
+    },
+    {
+      "id": 10,
+      "emp_id": "EMP010",
+      "emp_name": "Ritu Gupta",
+      "email": "ritu.gupta@gmail.com",
+      "password": "pass123",
+      "phone": "9011223344",
+      "gen": "Female",
+      "dob": "1993-07-21",
+      "doj": "2019-09-09",
+      "branch": "Delhi",
+      "blood_group": "O+",
+      "marital_status": "Single",
+      "active": true
+    },
+    {
+      "emp_id": "EMP011",
+      "emp_name": "Avijit Mondal",
+      "dob": "2026-04-01",
+      "doj": "2026-04-30",
+      "branch": "Kolkata",
+      "email": "avijitweb90@gmail.com",
+      "blood_group": "A+",
+      "gen": "",
+      "phone": "9874438716",
+      "marital_status": "Single",
+      "active": "True",
+      "id": 11
+    },
+    {
+      "emp_id": "EMP012",
+      "emp_name": "Avijit Mondal",
+      "dob": "2026-04-01",
+      "doj": "2026-04-30",
+      "branch": "Kolkata",
+      "email": "avijitweb90@gmail.com",
+      "blood_group": "A+",
+      "gen": "",
+      "phone": "9876543210",
+      "marital_status": "Single",
+      "active": "True",
+      "id": 12
+    },
+    {
+      "emp_id": "EMP013",
+      "emp_name": "Subhojit Basak",
+      "dob": "2026-04-01",
+      "doj": "2026-04-30",
+      "branch": "Patna",
+      "email": "subhojit@test.com",
+      "blood_group": "O+",
+      "gen": "Female",
+      "phone": "98744-38716",
+      "marital_status": "Single",
+      "active": "True",
+      "id": 13
+    }
+  ],
+  "employee_address": [
+    {
+      "id": 1,
+      "emp_id": "EMP001",
+      "address": "Salt Lake Sector V",
+      "city": "Kolkata",
+      "district": "North 24 Parganas",
+      "state": "West Bengal",
+      "pin": "700091"
+    },
+    {
+      "id": 2,
+      "emp_id": "EMP002",
+      "address": "Lajpat Nagar",
+      "city": "Delhi",
+      "district": "South Delhi",
+      "state": "Delhi",
+      "pin": "110024"
+    },
+    {
+      "id": 3,
+      "emp_id": "EMP003",
+      "address": "Andheri East",
+      "city": "Mumbai",
+      "district": "Mumbai Suburban",
+      "state": "Maharashtra",
+      "pin": "400069"
+    },
+    {
+      "id": 4,
+      "emp_id": "EMP004",
+      "address": "T Nagar",
+      "city": "Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "pin": "600017"
+    },
+    {
+      "id": 5,
+      "emp_id": "EMP005",
+      "address": "Whitefield",
+      "city": "Bangalore",
+      "district": "Bangalore Urban",
+      "state": "Karnataka",
+      "pin": "560066"
+    },
+    {
+      "id": 6,
+      "emp_id": "EMP006",
+      "address": "Gachibowli",
+      "city": "Hyderabad",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "pin": "500032"
+    },
+    {
+      "id": 7,
+      "emp_id": "EMP007",
+      "address": "Hinjewadi",
+      "city": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "pin": "411057"
+    },
+    {
+      "id": 8,
+      "emp_id": "EMP008",
+      "address": "Malviya Nagar",
+      "city": "Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "pin": "302017"
+    },
+    {
+      "id": 9,
+      "emp_id": "EMP009",
+      "address": "Park Street",
+      "city": "Kolkata",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "pin": "700016"
+    },
+    {
+      "id": 10,
+      "emp_id": "EMP010",
+      "address": "Dwarka Sector 10",
+      "city": "Delhi",
+      "district": "South West Delhi",
+      "state": "Delhi",
+      "pin": "110075"
+    }
+  ],
+  "employee_salary_breakup": [
+    {
+      "id": 1,
+      "emp_id": "EMP001",
+      "annual_ctc": 600000,
+      "month_ctc": 50000,
+      "basic": 20000,
+      "hra": 10000,
+      "vda": 5000,
+      "total_basic": 35000,
+      "ptax": 200,
+      "nth": 49800
+    },
+    {
+      "id": 2,
+      "emp_id": "EMP002",
+      "annual_ctc": 480000,
+      "month_ctc": 40000,
+      "basic": 16000,
+      "hra": 8000,
+      "vda": 4000,
+      "total_basic": 28000,
+      "ptax": 200,
+      "nth": 39800
+    },
+    {
+      "id": 3,
+      "emp_id": "EMP003",
+      "annual_ctc": 720000,
+      "month_ctc": 60000,
+      "basic": 25000,
+      "hra": 12000,
+      "vda": 6000,
+      "total_basic": 43000,
+      "ptax": 200,
+      "nth": 59800
+    },
+    {
+      "id": 4,
+      "emp_id": "EMP004",
+      "annual_ctc": 540000,
+      "month_ctc": 45000,
+      "basic": 18000,
+      "hra": 9000,
+      "vda": 4500,
+      "total_basic": 31500,
+      "ptax": 200,
+      "nth": 44800
+    },
+    {
+      "id": 5,
+      "emp_id": "EMP005",
+      "annual_ctc": 840000,
+      "month_ctc": 70000,
+      "basic": 30000,
+      "hra": 15000,
+      "vda": 7000,
+      "total_basic": 52000,
+      "ptax": 200,
+      "nth": 69800
+    },
+    {
+      "id": 6,
+      "emp_id": "EMP006",
+      "annual_ctc": 420000,
+      "month_ctc": 35000,
+      "basic": 14000,
+      "hra": 7000,
+      "vda": 3500,
+      "total_basic": 24500,
+      "ptax": 200,
+      "nth": 34800
+    },
+    {
+      "id": 7,
+      "emp_id": "EMP007",
+      "annual_ctc": 660000,
+      "month_ctc": 55000,
+      "basic": 22000,
+      "hra": 11000,
+      "vda": 5500,
+      "total_basic": 38500,
+      "ptax": 200,
+      "nth": 54800
+    },
+    {
+      "id": 8,
+      "emp_id": "EMP008",
+      "annual_ctc": 500000,
+      "month_ctc": 41666,
+      "basic": 17000,
+      "hra": 8500,
+      "vda": 4200,
+      "total_basic": 29700,
+      "ptax": 200,
+      "nth": 41466
+    },
+    {
+      "id": 9,
+      "emp_id": "EMP009",
+      "annual_ctc": 750000,
+      "month_ctc": 62500,
+      "basic": 26000,
+      "hra": 13000,
+      "vda": 6500,
+      "total_basic": 45500,
+      "ptax": 200,
+      "nth": 62300
+    },
+    {
+      "id": 10,
+      "emp_id": "EMP010",
+      "annual_ctc": 580000,
+      "month_ctc": 48333,
+      "basic": 19000,
+      "hra": 9500,
+      "vda": 4700,
+      "total_basic": 33200,
+      "ptax": 200,
+      "nth": 48133
+    }
+  ],
+  "emp_bank_details": [
+    {
+      "id": 1,
+      "emp_id": "EMP001",
+      "bank_name": "SBI",
+      "ifsc": "SBIN0001234",
+      "account_no": "12345678901"
+    },
+    {
+      "id": 2,
+      "emp_id": "EMP002",
+      "bank_name": "HDFC",
+      "ifsc": "HDFC0005678",
+      "account_no": "23456789012"
+    },
+    {
+      "id": 3,
+      "emp_id": "EMP003",
+      "bank_name": "ICICI",
+      "ifsc": "ICIC0009101",
+      "account_no": "34567890123"
+    },
+    {
+      "id": 4,
+      "emp_id": "EMP004",
+      "bank_name": "Axis Bank",
+      "ifsc": "UTIB0001122",
+      "account_no": "45678901234"
+    },
+    {
+      "id": 5,
+      "emp_id": "EMP005",
+      "bank_name": "PNB",
+      "ifsc": "PUNB0003344",
+      "account_no": "56789012345"
+    },
+    {
+      "id": 6,
+      "emp_id": "EMP006",
+      "bank_name": "Kotak",
+      "ifsc": "KKBK0005566",
+      "account_no": "67890123456"
+    },
+    {
+      "id": 7,
+      "emp_id": "EMP007",
+      "bank_name": "Yes Bank",
+      "ifsc": "YESB0007788",
+      "account_no": "78901234567"
+    },
+    {
+      "id": 8,
+      "emp_id": "EMP008",
+      "bank_name": "Bank of Baroda",
+      "ifsc": "BARB0009900",
+      "account_no": "89012345678"
+    },
+    {
+      "id": 9,
+      "emp_id": "EMP009",
+      "bank_name": "Canara Bank",
+      "ifsc": "CNRB0002233",
+      "account_no": "90123456789"
+    },
+    {
+      "id": 10,
+      "emp_id": "EMP010",
+      "bank_name": "Union Bank",
+      "ifsc": "UBIN0004455",
+      "account_no": "11223344556"
     }
   ]
 }
