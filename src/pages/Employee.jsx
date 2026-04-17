@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getEmployee, addEmployee } from "../service/userServices";
+import { getEmployee, addEmployee, addEmpAddress, addSalary, addbankDetails } from "../service/userServices";
 import { Modal } from "bootstrap";
 
 const Employee = () => {
@@ -58,6 +58,11 @@ const Employee = () => {
             setError("");
 
             const res = await addEmployee(form);
+            await Promise.all([
+                addEmpAddress({emp_id:form.emp_id}),
+                addSalary({emp_id:form.emp_id}),
+                addbankDetails({emp_id:form.emp_id}),
+            ])
             console.log(form);
             // ✅ update UI
             //setUsers((prev) => [...prev, res.data]);
