@@ -6,8 +6,11 @@ export const getEmployeeById = (id)=> api.get(`employees/${id}`);
 export const updateEmployee = (id, data) => api.put(`employees/${id}`, data);
 export const removeEmployee = (id)=>api.delete(`employees/${id}`)
 
+export const getEmployeeMasterAddress = ()=> api.get(`employee_address`);
 export const addEmpAddress = (data)=> api.post(`employee_address`,data);
 export const updateEmpAddress = (id,data)=> api.put(`employee_address/${id}`,data);
+
+export const getEmployeeMaster = ()=> api.get(`employee_master`);
 
 export const addSalary = (data)=> api.post(`employee_salary_breakup`,data);
 export const updateSalary = (id,data) => api.put(`employee_salary_breakup/${id}`,data);

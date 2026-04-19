@@ -12,34 +12,37 @@ import Notfound from './pages/Notfound'
 import Authlayout from './Layouts/Authlayout'
 import Login from './pages/Login'
 import Salary from './pages/Salary'
+import EmployeeMasterAddress from './pages/EmployeeMasterAddress'
 import EmployeeProvider from "./context/EmployeeProvider";
+import FirebaseEmployee from './pages/firebaseEmployee'
 
 function App() {
   return (
-     <EmployeeProvider>
     <BrowserRouter>
       <Routes>
 
-         <Route path="/" element={<Authlayout/>}>
-            <Route path="/" element={<Login/>} />
+        <Route path="/" element={<Authlayout/>}>
+          <Route path="/" element={<Login/>} />
         </Route>
-        {/* -------- layout Router-------- */}
+
         <Route path="/" element={<MainLayout />}>
 
-          {/* ------- child route-------- */}
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/employee' element={<Employee />} />
           <Route path='/address' element={<Address />} />
+          <Route path='/Masteraddress' element={<EmployeeMasterAddress/>} />
           <Route path='/bankDetails' element={<Bankdetails />} />
           <Route path='/qualification' element={<Qualification />} />
           <Route path='/salary' element={<Salary/>} />
+          <Route path='/firebaseEmployee' element={<FirebaseEmployee/>}/>
 
         </Route>
-        <Route path="*" element={<Notfound />}></Route>
+
+        {/* ✅ FIXED */}
+        <Route path="*" element={<Notfound />} />
+
       </Routes>
     </BrowserRouter>
-    </EmployeeProvider>
   )
 }
-
 export default App

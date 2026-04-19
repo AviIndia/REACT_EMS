@@ -37,6 +37,15 @@ const Sidebar = ()=>{
                                 <div className="sb-nav-link-icon"><i className="fas fa-thumb-tack"></i></div>
                                 Address
                             </NavLink>
+                                        <NavLink
+                                to="/Masteraddress"
+                                className={({ isActive }) =>
+                                    isActive ? "nav-link active" : "nav-link"
+                                }
+                                >
+                                <div className="sb-nav-link-icon"><i className="fas fa-thumb-tack"></i></div>
+                                Mastert Address
+                            </NavLink>
                                 <NavLink
                                 to="/salary"
                                 className={({ isActive }) =>
@@ -63,6 +72,16 @@ const Sidebar = ()=>{
                                 >
                                 <div className="sb-nav-link-icon"><i className="fas fa-graduation-cap"></i></div>
                                 Qualification
+                            </NavLink>
+
+                             <NavLink
+                                to="/firebaseEmployee"
+                                className={({ isActive }) =>
+                                    isActive ? "nav-link active" : "nav-link"
+                                }
+                                >
+                                <div className="sb-nav-link-icon"><i className="fas fa-graduation-cap"></i></div>
+                                Employee Firebese
                             </NavLink>
                            
 
